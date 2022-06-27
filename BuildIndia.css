@@ -1,0 +1,316 @@
+.mediaViewInfo {
+	--web-view-name: Home page;
+	--web-view-id: Home_page;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-actual-size-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home_page;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Home_page {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Home page;
+	--web-view-id: Home_page;
+	--web-enable-scale-up: true;
+	--web-scale-on-resize: true;
+	--web-actual-size-on-double-click: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Decore {
+	position: absolute;
+	width: 1920px;
+	height: 1021.806px;
+	left: 38px;
+	top: -130px;
+	overflow: visible;
+}
+#Ellipse_8 {
+	opacity: 0.3;
+	filter: blur(50px);
+	fill: rgba(213,174,228,1);
+}
+.Ellipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 778.945px;
+	height: 796.864px;
+	left: 0px;
+	top: 310.17px;
+}
+#Decore_s {
+	fill: rgba(255,188,0,0.251);
+}
+.Decore_s {
+	overflow: visible;
+	position: absolute;
+	width: 766.307px;
+	height: 1021.806px;
+	left: 1153.693px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Top_Nav {
+	position: absolute;
+	width: 447.5px;
+	height: 45.5px;
+	left: 1374.516px;
+	top: 49px;
+	overflow: visible;
+}
+#Nav_Item {
+	left: 0px;
+	top: 4.5px;
+	position: absolute;
+	overflow: visible;
+	width: 62px;
+	height: 41px;
+	text-align: left;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(33,40,50,1);
+}
+#Button {
+	position: absolute;
+	width: 102px;
+	height: 45.5px;
+	left: 182.838px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Simple_Sign_Up___Desktop.html;
+	cursor: pointer;
+}
+#Sign_up {
+	left: 19.838px;
+	top: 4.5px;
+	position: absolute;
+	overflow: visible;
+	width: 81.162px;
+	height: 41px;
+	text-align: left;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(33,40,50,1);
+}
+#Rectangle_4 {
+	fill: transparent;
+	stroke: rgba(33,40,50,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Rectangle_4 {
+	position: absolute;
+	overflow: visible;
+	width: 102px;
+	height: 40px;
+	left: 0px;
+	top: 0px;
+}
+#Dropdown {
+	position: absolute;
+	width: 40.823px;
+	height: 41px;
+	left: 406.677px;
+	top: 4.5px;
+	overflow: visible;
+}
+#EN {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 35px;
+	height: 41px;
+	text-align: left;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(33,40,50,1);
+}
+#Vector_1 {
+	fill: transparent;
+	stroke: rgba(33,40,50,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Vector_1 {
+	overflow: visible;
+	position: absolute;
+	width: 12.03px;
+	height: 6.722px;
+	left: 29.5px;
+	top: 18px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Desc {
+	position: absolute;
+	width: 1691.938px;
+	height: 586.06px;
+	left: 118.984px;
+	top: 322.235px;
+	overflow: visible;
+}
+#CTA {
+	position: absolute;
+	width: 225.253px;
+	height: 79.198px;
+	left: 0px;
+	top: 458.477px;
+	overflow: visible;
+}
+#CTA_ {
+	position: absolute;
+	width: 225.253px;
+	height: 79.198px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	transition: all 0.3s ease-out;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: Simple_Sign_Up___Desktop.html;
+	cursor: pointer;
+}
+#Rectangle_23 {
+	fill: rgba(255,199,45,1);
+}
+.Rectangle_23 {
+	filter: drop-shadow(5px 5px 10px rgba(255, 238, 191, 1));
+	overflow: visible;
+	position: absolute;
+	width: 255.253px;
+	height: 109.198px;
+	left: 0px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Find_out_more {
+	left: 34.598px;
+	top: 21.509px;
+	position: absolute;
+	overflow: visible;
+	width: 156.311px;
+	height: 30.85653305053711px;
+	text-align: center;
+	font-family: Google Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#Tagline {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 1284.938px;
+	height: 226.74708557128906px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(255,199,45,1);
+	text-transform: uppercase;
+}
+#Desc_ {
+	left: 0px;
+	top: 293.947px;
+	position: absolute;
+	overflow: visible;
+	width: 876.469px;
+	height: 153.3304443359375px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(94,98,130,1);
+}
+#Decore_ {
+	position: absolute;
+	width: 446.792px;
+	height: 13.926px;
+	left: 357.237px;
+	top: 165.06px;
+	overflow: visible;
+}
+#Rectangle_36 {
+	position: absolute;
+	width: 446.792px;
+	height: 13.926px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Heading {
+	left: 59px;
+	top: 100.999px;
+	position: absolute;
+	overflow: visible;
+	width: 1633.938px;
+	height: 485.0602111816406px;
+	text-align: left;
+	font-family: Volkhov;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 90px;
+	color: rgba(24,30,75,1);
+	letter-spacing: -0.3571428680419922px;
+}
+#n_101_Converted {
+	position: absolute;
+	width: 745px;
+	height: 858px;
+	left: 1136px;
+	top: 128px;
+	overflow: visible;
+}
+#BuildIndia {
+	left: 97.984px;
+	top: 45px;
+	position: absolute;
+	overflow: visible;
+	width: 193px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 40px;
+	color: rgba(26,136,9,1);
+}
